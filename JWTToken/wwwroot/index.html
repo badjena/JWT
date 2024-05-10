@@ -1,0 +1,25 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JWT Token Demo</title>
+</head>
+<body>
+    <button onclick="getToken()">Get Token</button>
+
+    <script>
+        async function getToken() {
+            const response = await fetch('https://localhost:5001/auth/token', {
+                method: 'GET',
+                headers: {
+                    'Content-Type': 'application/json'
+                }
+            });
+            const data = await response.json();
+            const token = data.token;
+            console.log(token); // Token received from the server, you can use it in further requests
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,39 @@
+{
+  "Version": 1,
+  "Hash": "NhwN3IuYUQktkAkrFsV1Ncs0bgM7ENbTKXhRWb1/ZXI=",
+  "Source": "JWTToken",
+  "BasePath": "_content/JWTToken",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "JWTToken\\wwwroot",
+      "Source": "JWTToken",
+      "ContentRoot": "D:\\.NetSessionPractice(Qalibre)\\BasicsPractice\\JWTToken\\wwwroot\\",
+      "BasePath": "_content/JWTToken",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "D:\\.NetSessionPractice(Qalibre)\\BasicsPractice\\JWTToken\\wwwroot\\index.html",
+      "SourceId": "JWTToken",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\.NetSessionPractice(Qalibre)\\BasicsPractice\\JWTToken\\wwwroot\\",
+      "BasePath": "_content/JWTToken",
+      "RelativePath": "index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    }
+  ]
+}

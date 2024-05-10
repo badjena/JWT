@@ -1,0 +1,25 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\.NetSessionPractice(Qalibre)\\BasicsPractice\\JWTToken\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.JWTToken.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.JWTToken.props",
+      "PackagePath": "build\\JWTToken.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.JWTToken.props",
+      "PackagePath": "buildMultiTargeting\\JWTToken.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.JWTToken.props",
+      "PackagePath": "buildTransitive\\JWTToken.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
